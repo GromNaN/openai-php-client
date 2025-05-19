@@ -56,6 +56,11 @@
             "php-http/discovery": false
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
     "scripts": {
         "lint": "pint -v",
         "test:lint": "pint --test -v",
